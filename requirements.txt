@@ -1,0 +1,16 @@
+certifi==2019.9.11
+chardet==3.0.4
+docopt==0.6.2
+idna==2.8
+numpy==1.17.2
+pandas==0.25.1
+python-dateutil==2.8.0
+python-http-client==3.2.1
+pytz==2019.3
+requests==2.22.0
+requests-file==1.4.3
+sendgrid==6.1.0
+six==1.12.0
+tldextract==2.2.1
+urllib3==1.25.6
+XlsxWriter==1.2.1
