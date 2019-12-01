@@ -6,7 +6,7 @@ from mailer import sendDiffMail
 import tldextract
 
 today = date.today()
-delta = timedelta(days=1) #cerca il file di ieri
+delta = timedelta(days=7) #last week crawl
 lastcheck = today-delta
 
 try:
