@@ -13,8 +13,8 @@ try:
     current_file_path = f"internal_all_{today.day}{today.month}{today.year}.csv"
     previous_file_path = f"internal_all_{lastcheck.day}{lastcheck.month}{lastcheck.year}.csv"
 
-    internal_all_previous = pd.read_csv(previous_file_path, header=1, low_memory=False)
-    internal_all_current = pd.read_csv(current_file_path, header=1, low_memory=False)
+    internal_all_previous = pd.read_csv(previous_file_path, low_memory=False)
+    internal_all_current = pd.read_csv(current_file_path, low_memory=False)
 
 
     previous = internal_all_previous[internal_all_previous['Content'].str.contains("text/html", na=False)]
